@@ -12,4 +12,4 @@ Im a Informatic Student from Baden, studying at Berufsfachschule BBBaden and Kan
 
 ### Contact me
 
-[email@domain.com](mailto:biondimichele@hotmail.com)
+[biondimichele@hotmail.com](mailto:biondimichele@hotmail.com)
