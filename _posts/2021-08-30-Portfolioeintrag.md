@@ -32,7 +32,7 @@ So sieht das aus für den Benutzer:
 
 Dadurch wird beim Ausfüllen und abschicken des Formulars eine neue Seite aufgerufen die ich `final.xhtml` benannte und folgenden code gab:
 ```xml
-<h:outputText value="Dein Character hat als Augenfarbe: #{character.eyecolor}"/>
+<h:outputText value="Deine Augenfarbe: #{character.eyecolor}"/>
 ```
 Dadurch haben wir eine Benutzereingabe gespeichert und wieder herausgegeben.
 
