@@ -15,13 +15,13 @@ Im Modul 133 geht es darum responsive Web-Seiten mit XHTML zu erstellen. In dies
 
 ## Produkt
 Wir haben ein `eyecolor.xhtml` um die Augen Farben eines Benutzers zu speichern der Code dazu sieht wie folgt aus:
-```xhtml
+```xml
 <h:form id="eyecolor-form">  
 <h:outputLabel for="eyecolor">Eyecolor</h:outputLabel>  
 <h:inputText id="eyecolor" value="#{character.eyecolor}" required="true" requiredMessage="A eyecolor is required"/><br/>  
 ```
 Die Eingabe wollen wir dann in einem anderen formular/site ausgeben, dazu adden wir folgenden code:
-```xhtml
+```xml
 <h:commandButton id="submit-button" value="Submit" action="final.xhtml"/>  
 ```
 So sieht das aus für den Benutzer:
@@ -31,7 +31,7 @@ So sieht das aus für den Benutzer:
 
 
 Dadurch wird beim Ausfüllen und abschicken des Formulars eine neue Seite aufgerufen die ich `final.xhtml` benannte und folgenden code gab:
-```xhtml
+```xml
 <h:outputText value="Dein Character hat als Augenfarbe: #{character.eyecolor}"/>
 ```
 Dadurch haben wir eine Benutzereingabe gespeichert und wieder herausgegeben.
